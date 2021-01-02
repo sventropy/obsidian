@@ -19,8 +19,8 @@
   --interactive-accent: #f1fa8c;
   --blockquote-border: #b294bb;
   --interactive-accent-rgb: #f1fa8c;
-  --font-family-editor: Avenir, Avenir Next, sans-serif;
-  --font-family-preview: Avenir, Avenir Next, sans-serif;
+  --font-family-editor: 'Source Code Pro', monospace;
+  --font-family-preview: 'Source Sans Pro', sans-serif;
 }
 
 /* LINKS & BRACKETS */
@@ -34,7 +34,7 @@ a,
 .cm-formatting-link {
   color: var(--text-a) !important;
   text-decoration: none !important;
-  font-family: Avenir, Avenir Next, sans-serif !important;
+  font-family: var(--font-family-editor) !important;
 }
 
 /* url's */
